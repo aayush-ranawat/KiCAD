@@ -1,0 +1,31 @@
+# KiCad temporary & auto-save files
+*.tmp
+*.bak
+*_old
+*-bak
+*.lck
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# KiCad rescue & local cache files
+*-cache.lib
+*-rescue.lib
+sym-lib-table.bak
+fp-lib-table.bak
+
+# KiCad 3D cache / local render caches
+*_autosave*
+*.net
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# Optional: Ignore production build artifacts if you prefer generating them via CI/CD
+# production/gerbers/
