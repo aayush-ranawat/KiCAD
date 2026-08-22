@@ -17,7 +17,7 @@ fp-lib-table.bak
 # KiCad 3D cache / local render caches
 *_autosave*
 *.net
-
+_restore_backup*
 # Operating System files
 .DS_Store
 Thumbs.db
