@@ -1,4 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "acker_chassis") (type "KiCad") (uri "${KIPRJMOD}/acker_chassis.pretty") (options "") (descr ""))
-)
