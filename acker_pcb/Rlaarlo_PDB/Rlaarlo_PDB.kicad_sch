@@ -1578,12 +1578,6 @@
 		(uuid "03344d3a-aaf0-4ab2-a6db-c722db108053")
 	)
 	(junction
-		(at 104.14 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ce0d94a-a837-42c8-aa3d-832a7aacbe32")
-	)
-	(junction
 		(at 36.83 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1631,6 +1625,10 @@
 		(color 0 0 0 0)
 		(uuid "fe6b7277-dfa1-4b9e-b3dc-60db4012ca26")
 	)
+	(no_connect
+		(at 96.52 50.8)
+		(uuid "a061d097-c0c1-4598-8057-a6b5763040b6")
+	)
 	(wire
 		(pts
 			(xy 69.85 68.58) (xy 72.39 68.58)
@@ -1650,16 +1648,6 @@
 			(type default)
 		)
 		(uuid "11d7f194-8eb1-4b1c-8e4f-4cca0b1721a9")
-	)
-	(wire
-		(pts
-			(xy 104.14 66.04) (xy 104.14 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "160e1ac5-1b90-42ff-8acf-9afc78c6caa5")
 	)
 	(wire
 		(pts
@@ -1873,16 +1861,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 50.8) (xy 104.14 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6cadb28-86cd-4c3b-80d3-dbaeb73c36b6")
-	)
-	(wire
-		(pts
 			(xy 36.83 90.17) (xy 48.26 90.17)
 		)
 		(stroke
@@ -2003,7 +1981,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 50.8) (xy 104.14 34.29)
+			(xy 104.14 34.29) (xy 104.14 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2055,7 +2033,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 113.03 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -2216,7 +2194,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "acker:spst_switch"
 			(at 59.69 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2451,7 +2429,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "acker:spst_switch"
 			(at 62.23 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -2622,7 +2600,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 53.34 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2782,7 +2760,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 125.73 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2940,7 +2918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "acker:spst_switch"
 			(at 59.69 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3487,7 +3465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "acker:XL4016 BUCK"
 			(at 80.01 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3807,7 +3785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "acker:XL4015 Buck"
 			(at 80.01 67.31 0)
 			(hide yes)
 			(show_name no)
