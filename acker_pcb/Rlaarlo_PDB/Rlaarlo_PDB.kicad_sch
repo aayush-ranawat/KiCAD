@@ -2508,7 +2508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "acker:vesc"
 			(at 85.09 48.26 0)
 			(hide yes)
 			(show_name no)
